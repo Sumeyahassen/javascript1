@@ -1,0 +1,68 @@
+html{
+    height: 100%;
+}
+body{
+    background: url('../image/bgi.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    min-height: 100%;
+}
+#logo{
+    margin: 0 auto;
+    padding-top: 40px;
+    width: 278px;
+    height: 112px;
+    background: url('../image/logo.png') no-repeat center center;
+}
+#contant{
+    background-color: #fff;
+    border: 3px double #333;
+    display: inline-block;
+    border-radius: 10px;
+    color: #333;
+    padding: 30px 50px;
+    margin: 20px auto 50px auto;
+    max-width: 880px;
+    min-height: 4em;
+    overflow: auto;
+    text-align: center;
+}
+.action{
+
+    background-color: #fe430f;
+    color: #fff;
+    width:auto;
+    height: 1em;
+    padding: 0.5em 0.75em;
+    position: relative;
+    top: 1.3em;
+    bottom: -2.3em;
+    float: right;
+}
+a{
+    text-decoration: none;
+    color: #e3bb5a;
+}
+.message{
+   font-weight: bold;
+   line-height: 1.5em;
+   height:2em;
+   display: block;
+   min-width: 10em;
+}
+.message spam{
+    font-weight: normal;
+}
+table{
+    margin: 20px 100px 0 100px;
+}
+tr td:first-child{
+    font-weight: bold;
+    padding-right: 20px;
+}
