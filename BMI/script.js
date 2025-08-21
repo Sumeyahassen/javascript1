@@ -8,8 +8,9 @@ let high = document.getElementById("high");
 let text = document.getElementById("text");
 console.log(typeof weight);
 let intro_image = document.querySelector(".image");
+let body=document.getElementsByTagName("body")[0];
 // unit converstere
-
+body.style.backgroundColor = "#f0f0f0";
 function BMIcalculat() {
   let weghtUnit = document.getElementById("Weights").value;
   let heightUnit = document.getElementById("heights").value;
