@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculater</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="contaner">
+        <h1 id="text">BMI CALCULATE</h1>
+        <div class="image">
+            <div class="Intro">
+                <img src="images/bmi.png" alt="">
+            </div>
+
+        </div>
+        <div class="display">
+            <div class="calculater" id="calculater">
+                <output>inter your weight :</output>
+                <input type="number" min="0" id="Weight" placeholder="Enter Your Weight">
+                <select name="WEIGHT" id="Weights" ">
+                    <option value="G">G</option>
+                    <option value="KG">KG</option>
+                </select><br>
+                <output>inter you height :</output>
+                <input type="number" min="0" id="height" placeholder="Enter Your Height">
+                <select name="height" id="heights" ">
+                    <option value="CM">CM</option>
+                    <option value="M">M</option>
+                </select><br>
+                <div class="btn">
+                    <button onclick="BMIcalculat()" style="background-color: #58d8c7;">Calculate</button>
+
+                </div>
+            </div>
+            <h1></h1>
+            <div class="low" id="low">
+                <img src="images/sikiny.png" alt="">
+            </div>
+            <div class="medium" id="medium">
+                <img src="images/normal.png" alt="">
+            </div>
+            <div class="high" id="high">
+                <img src="images/fat.png" alt="">
+            </div>
+
+        </div>
+        <div class="btn">
+            <button onclick="window.location.reload()" style="background-color: #d27477; display: none;" id="clear">
+                Clear</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
